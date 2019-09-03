@@ -1,0 +1,17 @@
+<div class="form-group">
+  <input type="text" class="form-control" id="banda" [(ngModel)]="NoBanda" placeholder="Buscar uma Banda">
+  <button type="submit" class="btn btn-primary mb-2" (click)="bandaBuscar()">Buscar</button>
+</div>
+<table>
+  <tr>
+    <th>Integrantes</th>
+    <th>Banda</th>
+    <th>ID</th>
+  </tr>
+  <tr *ngFor="let b of banda">
+    <td>{{b.NoIntegrante}}</td>
+    <td>{{b.NoBanda}}</td>
+    <td>{{b.CoBanda}}</td>
+  </tr>
+  
+</table>
