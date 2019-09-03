@@ -1,3 +1,8 @@
-# Aplicação Angular com NodeJs
+# Uma aplicação Nodejs+Angular 
 
-Para roda a aplição execute o arquivo .index no ternimal, isso ira inicar o servido da aplicação, para iniciar a aplicação Angular use o comando ng serve, a aplicação ira ser aberta no navegador na ulr http://localhost:8100
+
+## Como utilizar
+Para usar a aplicação primeiro rode o `index.js` no terminal, se a mensagem **"Servido Okay"** aparece que dizer que esta funcionando e o servidor foi inicializado.
+
+Para roda a aplicação Angular use o comando `ng serve` no diretório do projeto. Abra no navegador  com a url `http://localhost:4200/` .
+
